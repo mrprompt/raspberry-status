@@ -1,0 +1,19 @@
+{
+  "name": "raspi-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Paes",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "diskusage": "^0.2.4",
+    "dotenv": "^5.0.1",
+    "prettysize": "^1.1.0",
+    "raspi-ver": "^1.0.3",
+    "totalvoice-node": "^1.1.0"
+  }
+}
