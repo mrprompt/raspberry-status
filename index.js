@@ -14,7 +14,7 @@ const client = new totalvoice(TOKEN);
 const path = os.platform() === 'win32' ? 'c:' : '/storage';
 
 var job = new CronJob({
-  cronTime: '00 00 10,22 * * *',
+  cronTime: '00 00 9,14,22 * * *',
   onTick: function() {
     let info = disk.checkSync(path);
     let newinfo = {
